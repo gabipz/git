@@ -61,10 +61,10 @@ E executar dar um `git pull` novamente.
 |`git mv nomeArquivo nome_pasta`|Alterar arquivo de pasta|
 |`git diff .`|Ver as alterações de todos os arquivos|
 |`git checkout -- .`|Apaga todas `(.)` as alterações não commitadas|
-|`git reset HEAD~1`|Reverte alterações commitadas (último commit)|
 |`git commit --amend -m "Nova mensagem de commit"`|Mensagem de commit errada|
 |`git commit -m "Empty Commit" --allow-empty`|Commit vazio|
-|``||
+|`git reset HEAD~1`|Reverte alterações commitadas (último commit)|
+|`git reset --hard HEAD^1` `git push origin <nome_branch> -f`|Sequência para forçar a reversão do último commit|
 |``||
 |``||
 |``||
