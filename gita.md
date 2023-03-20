@@ -1,10 +1,11 @@
-#Gita
+# Gita
 
 Gita é uma solução open-source desenvolvida por [nosarthur](https://github.com/nosarthur/) para mexer em vários repositórios do github ao mesmo tempo.
 
-##
+## Instalação
 Instalar gita: https://github.com/nosarthur/gita 
 
+## Comandos
 Entrar no diretório onde estão os repositórios do git.
 
 Para ver todos os repositórios detalhados
