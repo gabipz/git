@@ -5,7 +5,7 @@ Gita é uma solução open-source desenvolvida por [nosarthur](https://github.co
 ## Instalação
 Instalar gita: https://github.com/nosarthur/gita 
 
-## Comandos
+## Comandos gerais
 Entrar no diretório onde estão os repositórios do git.
 
 Para ver todos os repositórios detalhados
@@ -13,6 +13,8 @@ Para ver todos os repositórios detalhados
 
 Para adicionar os repositórios no contexto gita:
 `gita add repo1 repo2`
+
+Para remover os repositórios no contexto gita: `gita rm repo1`
 
 Para atualizar todos os repositórios de uma vez:
 `gita pull`
@@ -35,6 +37,13 @@ Para remover arquivo:
 Para criar arquivo:
 `gita shell neurons mkdir .github/workflows`
 
+## Adição de novos repositórios no grupo
+
+```
+gita add repo1 repo2
+gita group add -n group-name repo1 repo2
+```
+
 ## Exemplo como copiar arquivos de um repositório para outros:
 ```
 gita super neurons checkout master
@@ -47,5 +56,3 @@ gita super neurons add .
 gita super neurons commit -m "[PDE-4023] CI: Add GHA workflows"
 gita super neurons git push --set-upstream origin pde-4023
 ```
-
-
