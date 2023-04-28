@@ -54,5 +54,5 @@ gita shell neurons mkdir .github/workflows
 yes | gita shell neurons cp -rf ~/Documents/git/neuron-example/.github/ .
 gita super neurons add .
 gita super neurons commit -m "[PDE-4023] CI: Add GHA workflows"
-gita super neurons git push --set-upstream origin pde-4023
+gita super neurons push --set-upstream origin pde-4023
 ```
