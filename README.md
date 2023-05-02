@@ -71,7 +71,12 @@ E executar dar um `git pull` novamente.
 |``||
 |``||
 
-
+## Criando uma tag
+```
+git checkout main
+git pull
+git tag -a v.1.2.14 -m "Uma mensagem que descreve o que foi feito"
+```
 
 ### Template tabela
 |Comando|Descrição |
